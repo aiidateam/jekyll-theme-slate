@@ -2,3 +2,16 @@
 ---
 
 @import "jekyll-theme-slate";
+
+// Command prompt for bash code
+div.language-bash code:before {
+    content: "$";
+    margin-right: 6px;
+}
+
+// python prompt for python code
+div.language-python code:before {
+    content: ">>> ";
+    margin-right: 6px;
+}
+
